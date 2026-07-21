@@ -142,6 +142,7 @@ expect(undefined).toBeUndefined();
 - [SQLAlchemy 2.0+ con Flask-SQLAlchemy](https://gist.github.com/devAbreu/1776c3ba40add454728140a1de74a034)
 - [Resumen de Relaciones y SQLAlchemy 2.x](https://gist.github.com/devAbreu/edb2eb20f4fcc6845000ad0513e2231a)
 - [Guía de Consultas SQLAlchemy 2.0+ y API REST](https://gist.github.com/devAbreu/25b0232838f631cd2f3984f260f5a531)
+- - Documentación Oficial de SQLAlchemy 2.0 (ORM)
 
 **Ejemplo Práctico: Relaciones 1:1, 1:N y N:M con Flask-SQLAlchemy**
 ```python
