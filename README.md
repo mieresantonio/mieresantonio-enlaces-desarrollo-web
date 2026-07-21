@@ -124,6 +124,7 @@ expect(undefined).toBeUndefined();
 - [Learn X in Y Minutes (Python)](https://learnxinyminutes.com/es/python/)
 - [Documentación oficial de Python](https://docs.python.org/3/tutorial/)
 - [Python Tutor (Visualizador de ejecución paso a paso)](https://pythontutor.com/python-compiler.html)
+- [El Libro de Python](https://ellibrodepython.com)
 
 ---
 
@@ -140,6 +141,7 @@ expect(undefined).toBeUndefined();
 ### **Modelado de Datos (SQLAlchemy)**
 - [SQLAlchemy 2.0+ con Flask-SQLAlchemy](https://gist.github.com/devAbreu/1776c3ba40add454728140a1de74a034)
 - [Resumen de Relaciones y SQLAlchemy 2.x](https://gist.github.com/devAbreu/edb2eb20f4fcc6845000ad0513e2231a)
+- [Guía de Consultas SQLAlchemy 2.0+ y API REST](https://gist.github.com/devAbreu/25b0232838f631cd2f3984f260f5a531)
 
 **Ejemplo Práctico: Relaciones 1:1, 1:N y N:M con Flask-SQLAlchemy**
 ```python
@@ -191,5 +193,6 @@ class Course(db.Model):
         secondary=student_course, back_populates="courses")
 ```
 ---
+
 🤝 Cómo contribuir
 Si tienes un enlace útil, siéntete libre de abrir un Pull Request o dejar un Issue para agregarlo a la lista.
