@@ -1,6 +1,21 @@
 # 🚀 Recursos de Desarrollo Full Stack
 
-Este repositorio es una recopilación organizada de enlaces, documentación, ejemplos de código y herramientas útiles proporcionadas en las clases del Profesor Yolfrank. Está diseñado para servir como guía de referencia rápida y apoyo durante los estudios.
+Recopilación organizada de enlaces, documentación, ejemplos de código y herramientas útiles del bootcamp de desarrollo Full Stack de 4Geeks Academy. Sirve como guía de referencia rápida durante los estudios y como recurso para otros estudiantes que recorren el mismo camino.
+
+> Los enlaces se revisaron uno por uno el 23 de noviembre de 2026: los 58 responden correctamente.
+
+## Índice
+
+- [Módulo 1: Fundamentos Web (HTML y CSS)](#-módulo-1-fundamentos-web-html-y-css)
+- [Módulo 2: Formularios, Flexbox y Bootstrap](#-módulo-2-formularios-flexbox-y-bootstrap)
+- [Módulo 3: Línea de Comandos (CLI)](#-módulo-3-línea-de-comandos-cli)
+- [Módulo 4: JavaScript y el DOM](#-módulo-4-javascript-y-el-dom)
+- [Módulo 5: Testing con Jest](#-módulo-5-testing-con-jest)
+- [Módulo 6: React](#️-módulo-6-react)
+- [Módulo 7: Introducción a Python](#-módulo-7-introducción-a-python)
+- [Módulo 8: Bases de Datos (SQL y SQLAlchemy)](#️-módulo-8-bases-de-datos-sql-y-sqlalchemy)
+- [Por completar](#por-completar)
+- [Cómo contribuir](#-cómo-contribuir)
 
 ---
 
@@ -193,7 +208,23 @@ class Course(db.Model):
     students: Mapped[list["Student"]] = relationship(
         secondary=student_course, back_populates="courses")
 ```
+
 ---
 
-🤝 Cómo contribuir
+## Por completar
+
+Módulos previstos para ampliar esta guía con lo aprendido después del bootcamp:
+
+- **Módulo 9: Flask** — rutas, blueprints, migraciones con Flask-Migrate y Flask-Admin.
+- **Módulo 10: Autenticación JWT** — registro, login con token, rutas protegidas y hash de contraseñas. Ver el ejercicio en [mieresantonio-Autenticacion-JWT-react-flask-hello](https://github.com/mieresantonio/mieresantonio-Autenticacion-JWT-react-flask-hello).
+- **Módulo 11: Despliegue** — GitHub Pages, Vercel y Render: del proyecto local a una URL pública.
+
+---
+
+## 🤝 Cómo contribuir
+
 Si tienes un enlace útil, siéntete libre de abrir un Pull Request o dejar un Issue para agregarlo a la lista.
+
+---
+
+*Recopilación curada durante el bootcamp Full Stack de 4Geeks Academy (2026), con material de las clases del Profesor Yolfrank y apuntes propios. Última revisión de enlaces: 23 de noviembre de 2026.*
